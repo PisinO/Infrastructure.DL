@@ -1,9 +1,9 @@
-# Infrastructure.DL
+# Infrastructure.DL - 
 > Unit of Work and repository patterns.
 
-[![Version](https://img.shields.io/cocoapods/v/Infrastructure.DL.svg?style=flat)](https://cocoapods.org/pods/LightIoC)
-[![License](https://img.shields.io/cocoapods/l/Infrastructure.DL.svg?style=flat)](https://cocoapods.org/pods/LightIoC)
-[![Platform](https://img.shields.io/cocoapods/p/Infrastructure.DL.svg?style=flat)](https://cocoapods.org/pods/LightIoC)
+[![Version](https://img.shields.io/cocoapods/v/Infrastructure.DL.svg?style=flat)](https://cocoapods.org/pods/Infrastructure.DL)
+[![License](https://img.shields.io/cocoapods/l/Infrastructure.DL.svg?style=flat)](https://cocoapods.org/pods/Infrastructure.DL)
+[![Platform](https://img.shields.io/cocoapods/p/Infrastructure.DL.svg?style=flat)](https://cocoapods.org/pods/Infrastructure.DL)
 ![Swift](https://img.shields.io/badge/swift-%3E%3D5.1-yellow?style=flat)
 
 The repository and unit of work patterns are intended to create an abstraction layer between the data access layer and the business logic layer of an application. Implementing these patterns can help insulate our application from changes in the data store and can facilitate automated unit testing.
