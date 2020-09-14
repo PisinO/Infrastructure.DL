@@ -1,0 +1,6 @@
+framework module Pods_Infrastructure_DL_Tests {
+  umbrella header "Pods-Infrastructure.DL_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

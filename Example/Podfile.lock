@@ -1,0 +1,24 @@
+PODS:
+  - Infrastructure.DL (1.0.0):
+    - NSPredicateObjectMapper
+  - NSPredicateObjectMapper (1.0.2)
+
+DEPENDENCIES:
+  - Infrastructure.DL (from `../`)
+  - NSPredicateObjectMapper
+
+SPEC REPOS:
+  trunk:
+    - NSPredicateObjectMapper
+
+EXTERNAL SOURCES:
+  Infrastructure.DL:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Infrastructure.DL: ab4bf44afe31531aac7bf29724747645c0efd480
+  NSPredicateObjectMapper: f1515cdd582fe888d695971490256acca07a9d1b
+
+PODFILE CHECKSUM: f0da160b4c27522ad674ab3deb9ecaf17bbf01ac
+
+COCOAPODS: 1.9.1

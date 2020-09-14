@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'Infrastructure.DL_Example' do
+  pod 'Infrastructure.DL', :path => '../'
+  pod 'NSPredicateObjectMapper'
+  
+  target 'Infrastructure.DL_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

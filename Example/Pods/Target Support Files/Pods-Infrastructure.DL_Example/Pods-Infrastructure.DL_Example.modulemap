@@ -1,0 +1,6 @@
+framework module Pods_Infrastructure_DL_Example {
+  umbrella header "Pods-Infrastructure.DL_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
