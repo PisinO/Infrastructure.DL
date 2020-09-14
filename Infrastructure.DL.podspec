@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Infrastructure.DL'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'UnitOfWork and Repository pattern guidelines'
 
 # This description is used to generate tags and improve search results.

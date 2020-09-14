@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import CoreData
 
 public protocol ContextInitializer {
     var datamodelName: String { get }
     var datamodelBundle: Bundle { get }
+    var descriptions: [NSPersistentStoreDescription]? { get }
     var onFinishedLoading: ((Error?) -> ())? { get }
 }

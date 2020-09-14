@@ -34,6 +34,10 @@ class ContextProvider {
         
         let pc = PersistentContainer(name: self.datamodelName, managedObjectModel: model)
 
+        if let descriptions = self.initializer.descriptions, descriptions.count > 0 {
+            pc.persistentStoreDescriptions = descriptions
+        }
+        
         pc.loadPersistentStores() { (description, error) in
             self.initializer.onFinishedLoading?(error)
         }
